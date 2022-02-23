@@ -1,0 +1,17 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+int main() {
+    int height, width;
+    cout << "hight: ";
+    cin >> height;
+    cout << "width: ";
+    cin >> width;
+   for(int i =0; i<=height; i++){
+       for(int j =0; j<=width; j++){
+           cout << setw(3)<<"*";
+       }
+     cout <<endl;  
+   } 
+    return 0;
+}
